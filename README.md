@@ -13,4 +13,4 @@ The instruction memory and data memory are contained in the same array, inside t
 ### On modifying the instruction sequence
 Currently, the instruction sequence loaded into the memory is pretty nonsensical in order to keep the testing process simple. If you wish to change the instruction sequence to something more sensible, **you can do so by changing lines 25-40 in the memoryUnit file.** 
 
-Take care, however, that the testbench for the complete processor is very basic and highly specific, and will almost definitly **not work** properly if you choose to change the instruction sequence.
+Take care, however, that the testbench for the complete processor is very basic and highly specific, and will almost definitely **not work** properly if you choose to change the instruction sequence.
