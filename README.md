@@ -8,7 +8,7 @@ This implementation supports the following instructions:
 
 The internal components are in the component directory, and testbenches for the more complex and substantial components (including one for the complete processor) are located in the testbench directory.
 
-To keep things simple, The memory length is 16 words for instructions, and 16 words for data.
+To keep things simple, the memory length is 16 words for instructions, and 16 words for data.
 The instruction memory and data memory are contained in the same array, inside the same component.
 Increasing / decreasing the memory size is possible by changing the RAM logic inside the memoryUnit file.
 
